@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Novicedge: Sharpen your future</title>
+    <link rel="stylesheet" href="css/materialize.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Novicedge Document">
+    <meta charset="utf-8"/>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+    code {
+        background: rgba(111,111,111,0.3);
+    }
+    div.valign-wrapper{
+        min-height: 100px;
+    }
+    .shadow-text{
+        text-shadow: 0px 0px 5px rgba(106, 108, 117, 1);
+    }
+</style>
+<body>
+
+<nav>
+    <div class="nav-wrapper white">
+
+        <a href="#" class="brand-logo">&nbsp;
+            <img class="responsive-img" src="images/logo.png" style="margin-top:15px;max-height: 35px">
+        </a>
+
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="waves-effect waves-green btn-flat green-text " href="web.html">Web</a></li>
+            <li><a class="waves-effect waves-green btn-flat green-text" href="mobile.html">Mobile</a></li>
+            <li><a class="waves-effect waves-green btn-flat green-text " href="team.html">The Team</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="">
+    <div class="row">
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <code>/api/login</code> (Normal Login)
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <p class="flow-text">Normal login using email and password (assuming account already exists)</p>
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <code>
+                        <ul>
+                            <li>email</li>
+                            <li>password</li>
+                            <li>device_type</li>
+                        </ul>
+
+                    </code>
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <a target="json" class="btn green waves-effect waves-light" href="https://jsonblob.com/56cd5a0ee4b01190df5105e8">Sample Output</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="row">
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <code>/api/login</code> (Social Login)
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <p class="flow-text">Social Login using facebook and google (if account already exists)</p>
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <code>
+                        <ul>
+                            <li>uid</li>
+                            <li>provider</li>
+                            <li>device_type</li>
+                        </ul>
+
+                    </code>
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <em>Same as Normal Login</em>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="row">
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <code>/api/login</code> (Token Login)
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <p class="flow-text">This api is called if the app was not closed ,just reopened (still logged in)
+                    it will use the stored token on the device
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <code>
+                        <ul>
+                            <li>token</li>
+
+                            <li>device_type</li>
+                        </ul>
+
+                    </code>
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12">
+            <div class="valign-wrapper">
+                <div class="valign">
+                    <em>Same as Normal Login</em>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer green darken-2">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Novicedge</h5>
+                <p class="grey-text text-lighten-4">Novicedge is still undergoing construction. Please check us out soon and we will bring you the newer and better features!</p>
+            </div>
+            <div class="col l3 s12 offset-l2 s12">
+                <h5 class="white-text">Check us out</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Web</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Mobile</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">The Team</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Klab Cyscorpions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2016 Copyright novicedge.com
+            <a class="grey-text text-lighten-4 right" href="#!">Back</a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.parallax').parallax();
+    });
+
+</script>
+</body>
+</html>
